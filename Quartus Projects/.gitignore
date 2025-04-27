@@ -1,0 +1,41 @@
+*.*
+!*.gitignore
+
+# ignore Quartus generated folders
+*/db/
+*/incremental_db/
+*/simulation/*.vhd
+*/synthesis/
+*/simultaion/qsim/
+*/timing/
+*/testbench/
+*/*_sim/
+*~
+
+# README file
+!README*
+# project files
+!*.qpf
+!*.qsf
+# source files
+!*.bdf
+!*.vhd
+!*.vhdl
+!*.v
+!*.sv
+# Platform Designer files
+!*.qsys 
+# IP core files 
+!*.qip
+!*.sip
+!*.bsf
+# SOPC builder project source files
+!*.ptf
+!*.bsf
+# board description
+!**/class.ptf
+# sdc files:
+!*.sdc
+# tcl files:
+!*.tcl
+
